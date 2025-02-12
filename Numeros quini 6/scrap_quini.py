@@ -6,7 +6,7 @@ import csv
 anios = range(2010, 2025)  # Hasta el año actual
 
 # Archivo de salida
-archivo_csv = "resultados_quini6_completos.csv"
+archivo_csv = "data/resultados_quini6_completos.csv"
 
 # Abrir el archivo CSV para escribir los resultados
 with open(archivo_csv, mode="w", newline="", encoding="utf-8") as file:
