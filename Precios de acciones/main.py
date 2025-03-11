@@ -8,7 +8,7 @@ def get_fx_to_usd(currency):
     soup = bs(resp.content, "html.parser")
     fx_rate = soup.find("div", {"data-last-price": True})
     fx = float(fx_rate["data-last-price"])
-
+    
     return fx
 
 #https://www.google.com/finance/quote/AAPL:NASDAQ
